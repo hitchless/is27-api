@@ -19,22 +19,22 @@ app.listen(port, () => {
 
 
 /* truck routes */
-app.get('/api/trucks', db.getTrucks) // WORKS
-app.post('/api/truck/new', db.createTruck) // post is create WORKS
-app.post('/api/truck/update', db.updateTruck) // put is update WORKS
-app.delete('/api/truck/delete', db.deleteTruck) // WORKS
+app.get('/api/trucks', db.getTrucks)
+app.post('/api/truck/new', db.createTruck)
+app.post('/api/truck/update', db.updateTruck)
+app.delete('/api/truck/delete', db.deleteTruck)
 
 /* driver routes */
-app.get('/api/drivers', db.getAllDrivers) // WORKS
-app.post('/api/driver/new', db.createDriver) // post is create WORKS
-app.post('/api/driver/update', db.updateDriver) // put is update WORKS
-app.delete('/api/driver/delete', db.deleteDriver) // WORKS
+app.get('/api/drivers', db.getAllDrivers)
+app.post('/api/driver/new', db.createDriver)
+app.post('/api/driver/update', db.updateDriver)
+app.delete('/api/driver/delete', db.deleteDriver)
 
 /* lane routes */
-app.get('/api/lanes', db.getLanes) // WORKS
-app.post('/api/lane/new', db.createLane) // post is create WORKS
-app.post('/api/lane/update', db.updateLane) // put is update WORKS
-app.delete('/api/lane/:id', db.deleteLane) // WORKS
+app.get('/api/lanes', db.getLanes)
+app.post('/api/lane/new', db.createLane)
+app.post('/api/lane/update', db.updateLane)
+app.delete('/api/lane/:id', db.deleteLane)
 
 
 app.get('/', (request, response) => {
