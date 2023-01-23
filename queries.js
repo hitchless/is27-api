@@ -171,17 +171,14 @@ const deleteLane = (request, response) => {
 /* ================== */
 
 module.exports = {
-    // trucks
     getTrucks,
     createTruck,
     updateTruck,
     deleteTruck,
-    // drivers
     getAllDrivers,
     createDriver,
     updateDriver,
     deleteDriver,
-    // lanes
     getLanes,
     createLane,
     updateLane,
