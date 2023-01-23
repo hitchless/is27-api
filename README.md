@@ -10,6 +10,8 @@ Another thing I'd like to mention is that I'm very aware that this could be a lo
 
 Also, again due to lack of time, I have only built out the CRUD operations for two of the three tables.
 
+The UX is mobile first design, for what it's worth.
+
 ## Links
 - Back-end Compontent (Node and Express) cloud source control repository: https://github.com/hitchless/is27-api
 - Back-end Compontent Public URL: https://is27-api.vercel.app/ (append this to the start of the end points to get the actual endpoint URLS)
