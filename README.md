@@ -12,6 +12,8 @@ Also, again due to lack of time, I have only built out the CRUD operations for t
 
 The UX is mobile first design, for what it's worth.
 
+And lastly, if I'm honest it just wasn't worth it to spend time on seeding when there was so little data needed, and most of the hosted DB solutions these days come with rather easy to use, and slick, graphicial interfaces.
+
 ## Links
 - Back-end Compontent (Node and Express) cloud source control repository: https://github.com/hitchless/is27-api
 - Back-end Compontent Public URL: https://is27-api.vercel.app/ (append this to the start of the end points to get the actual endpoint URLS)
