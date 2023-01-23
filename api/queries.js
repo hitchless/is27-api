@@ -30,7 +30,7 @@ const createTruck = (request, response) => {
       throw error
     }
     //response.status(201).send(`Truck added`)
-    response.redirect('http://127.0.0.1:3001')
+    response.redirect('https://is27-font-end.vercel.app')
   })
 }
 /* ========= currently working ... but only as body JSON, not sure how to make that work in the application ========= */
@@ -46,7 +46,7 @@ const updateTruck = (request, response) => {
         throw error
       }
       //response.status(200).send(`Truck modified with ID: ${id}`)
-      response.redirect('http://127.0.0.1:3001')
+      response.redirect('https://is27-font-end.vercel.app')
     }
   )
 }
@@ -58,7 +58,7 @@ const deleteTruck = (request, response) => {
             throw error
         }
         //response.status(200).send(`Truck deleted with ID: ${id}`)
-        response.redirect('http://127.0.0.1:3001')
+        response.redirect('https://is27-font-end.vercel.app')
     })
 }
 /* ================== */
@@ -85,7 +85,7 @@ const createDriver = (request, response) => {
       throw error
     }
     //response.status(201).send(`Driver added`)
-    response.redirect('http://127.0.0.1:3001')
+    response.redirect('https://is27-font-end.vercel.app')
   })
 }
 /* ========= currently working  ========= */
@@ -101,7 +101,7 @@ const updateDriver = (request, response) => {
         throw error
       }
       //response.status(200).send(`Truck modified with ID: ${id}`)
-      response.redirect('http://127.0.0.1:3001')
+      response.redirect('https://is27-font-end.vercel.app')
     }
   )
 }
@@ -154,7 +154,7 @@ const updateLane = (request, response) => {
         throw error
       }
       //response.status(200).send(`Truck modified with ID: ${id}`)
-      response.redirect('http://127.0.0.1:3001')
+      response.redirect('https://is27-font-end.vercel.app')
     }
   )
 }
