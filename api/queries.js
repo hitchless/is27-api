@@ -29,8 +29,8 @@ const createTruck = (request, response) => {
     if (error) {
       throw error
     }
-    //response.status(201).send(`Truck added`)
-    response.redirect('https://is27-font-end.vercel.app')
+    response.status(201).send(`Truck added`)
+    //response.redirect('https://is27-font-end.vercel.app')
   })
 }
 /* ========= currently working ... but only as body JSON, not sure how to make that work in the application ========= */
@@ -45,8 +45,8 @@ const updateTruck = (request, response) => {
       if (error) {
         throw error
       }
-      //response.status(200).send(`Truck modified with ID: ${id}`)
-      response.redirect('https://is27-font-end.vercel.app')
+      response.status(200).send(`Truck modified with ID: ${id}`)
+      //response.redirect('https://is27-font-end.vercel.app')
     }
   )
 }
@@ -57,8 +57,8 @@ const deleteTruck = (request, response) => {
         if (error) {
             throw error
         }
-        //response.status(200).send(`Truck deleted with ID: ${id}`)
-        response.redirect('https://is27-font-end.vercel.app')
+        response.status(200).send(`Truck deleted with ID: ${id}`)
+        //response.redirect('https://is27-font-end.vercel.app')
     })
 }
 /* ================== */
@@ -84,8 +84,8 @@ const createDriver = (request, response) => {
     if (error) {
       throw error
     }
-    //response.status(201).send(`Driver added`)
-    response.redirect('https://is27-font-end.vercel.app')
+    response.status(201).send(`Driver added`)
+    //response.redirect('https://is27-font-end.vercel.app')
   })
 }
 /* ========= currently working  ========= */
@@ -100,8 +100,8 @@ const updateDriver = (request, response) => {
       if (error) {
         throw error
       }
-      //response.status(200).send(`Truck modified with ID: ${id}`)
-      response.redirect('https://is27-font-end.vercel.app')
+      response.status(200).send(`Truck modified with ID: ${id}`)
+      //response.redirect('https://is27-font-end.vercel.app')
     }
   )
 }
@@ -153,8 +153,8 @@ const updateLane = (request, response) => {
       if (error) {
         throw error
       }
-      //response.status(200).send(`Truck modified with ID: ${id}`)
-      response.redirect('https://is27-font-end.vercel.app')
+      response.status(200).send(`Truck modified with ID: ${id}`)
+      //response.redirect('https://is27-font-end.vercel.app')
     }
   )
 }
