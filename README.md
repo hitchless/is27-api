@@ -10,8 +10,6 @@ Another thing I'd like to mention is that I'm very aware that this could be a lo
 
 Also, again due to lack of time, I have only built out the CRUD operations for two of the three tables.
 
-The UX is mobile first design, for what it's worth.
-
 And lastly, if I'm honest it just wasn't worth it to spend time on seeding when there was so little data needed, and most of the hosted DB solutions these days come with rather easy to use, and slick, graphicial interfaces.
 
 ## Links
